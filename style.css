@@ -5,70 +5,81 @@ box-sizing:border-box;
 }
 
 body {
-  background-color:  #262626;
+    background-color: #262626;
+}
+
+.contenitore {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 header {
   top: 0;
   height: 100px;
-  width: 100vw;
-  background-color:  #262626;
+  width: 100%;
+  background-color:  black;
   position: fixed;
-
 }
 
 .header-left {
+  height: 100px;
   float: left;
   width: 30%;
-
 }
 
 .header-right {
+  height: 100px;
   width: 70%;
   float: left;
   text-align: right;
 }
 
 .header-left .logo {
-color: red;
-font-size: 20px;
-line-height: 100px;
-margin-left: 40px;
+  color: red;
+  font-size: 20px;
+  line-height: 100px;
+  margin-left: 40px;
 }
 
 
 #search {
   height: 50px;
   margin-top: 25px;
-  padding: 3px;
+  padding: 5px;
+
 }
 
 #btn_search  {
   height: 50px;
   width: 50px;
-  margin-top: 25px;
+  margin-right: 20px;
 }
 
-.contenitore {
-  margin-top: 120px;
-  width: 100%;
-  margin: 0 auto;
-}
 
 #films {
-  margin-top: 150px;
-  width: 100%;
+  height: calc(100vh - 100px);
+  width: 60%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:0px;
+  overflow: auto;
+  border: 1px solid red;
 }
 
 .film {
   float: left;
-  margin: 20px;
   border: 1px solid white;
-  width: 25%;
+  width: 21%;
+  height: 400px;
   color: white;
+  margin: 2%;
+  padding: 10px;
 }
 
 .film ul li {
   list-style-type: none;
-font-size: 20px;
+  font-size: 20px;
 }
