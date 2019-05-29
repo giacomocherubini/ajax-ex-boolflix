@@ -1,0 +1,74 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body {
+  background-color:  #262626;
+}
+
+header {
+  top: 0;
+  height: 100px;
+  width: 100vw;
+  background-color:  #262626;
+  position: fixed;
+
+}
+
+.header-left {
+  float: left;
+  width: 30%;
+
+}
+
+.header-right {
+  width: 70%;
+  float: left;
+  text-align: right;
+}
+
+.header-left .logo {
+color: red;
+font-size: 20px;
+line-height: 100px;
+margin-left: 40px;
+}
+
+
+#search {
+  height: 50px;
+  margin-top: 25px;
+  padding: 3px;
+}
+
+#btn_search  {
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+}
+
+.contenitore {
+  margin-top: 120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#films {
+  margin-top: 150px;
+  width: 100%;
+}
+
+.film {
+  float: left;
+  margin: 20px;
+  border: 1px solid white;
+  width: 25%;
+  color: white;
+}
+
+.film ul li {
+  list-style-type: none;
+font-size: 20px;
+}
