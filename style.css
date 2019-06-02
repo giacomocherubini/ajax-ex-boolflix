@@ -1,11 +1,11 @@
 * {
-margin:0;
-padding:0;
-box-sizing:border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
 body {
-    background-color: #262626;
+  background-color: #262626;
 }
 
 .contenitore {
@@ -14,6 +14,7 @@ body {
   width: 100%;
   position: relative;
 }
+
 
 header {
   top: 0;
@@ -38,23 +39,24 @@ header {
 
 .header-left .logo {
   color: red;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 100px;
   margin-left: 40px;
 }
 
-
 #search {
-  height: 50px;
-  margin-top: 25px;
+  height: 40px;
+  margin-top: 30px;
   padding: 5px;
+  font-size: 20px;
 
 }
 
-#btn_search  {
-  height: 50px;
+#btn_search {
+  height: 40px;
   width: 50px;
   margin-right: 20px;
+
 }
 
 
@@ -82,4 +84,21 @@ header {
 .film ul li {
   list-style-type: none;
   font-size: 20px;
+}
+
+.fas.fa-star {
+  color: yellow;
+}
+
+ .icon_flag {
+   position: relative;
+ }
+
+.icon_flag > img {
+  width: 32px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
